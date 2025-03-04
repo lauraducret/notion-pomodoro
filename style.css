@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #F5F1E9; /* Beige aesthetic */
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#timer {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.start { background-color: #4CAF50; color: white; }
+.pause { background-color: #FFA500; color: white; }
+.reset { background-color: #DC143C; color: white; }
