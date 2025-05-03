@@ -34,7 +34,7 @@ html, body {
   
   button {
     padding: 4px 10px;               /* reduced padding */
-    font-size: 14px;                 /* slightly smaller text */
+    font-size: 17px;                 /* slightly smaller text */
     font-family: 'Georgia', serif;  /* keep your aesthetic */
     cursor: pointer;
     border: 1.5px solid black;       /* thinner border */
@@ -54,4 +54,19 @@ html, body {
     font-weight: bold;
     margin: 0;
   }
+
+  #session-label {
+    margin-top: 0.5em;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    padding: 2px 8px;
+    border-radius: 6px;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+  }
   
+  .break-mode {
+    background-color: black;
+    color: white;
+  }
