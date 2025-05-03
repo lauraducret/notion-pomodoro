@@ -11,45 +11,35 @@ html, body {
     align-items: center;
   }
   
-  .wrapper {
-    transform: scale(0.7);
-    transform-origin: top center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-    width: fit-content;
-    overflow: hidden;
-  }
-  
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     padding: 0;
-    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1;
   }
   
   h1 {
-    font-size: 20px;
-    margin: 0 0 0.5em 0;
+    font-size: 14px;
+    margin: 0 0 4px 0;
   }
   
   .button-group {
     display: flex;
-    gap: 10px;
-    margin-bottom: 12px;
+    gap: 6px;
+    margin-bottom: 8px;
   }
   
   button {
-    padding: 4px 10px;
-    font-size: 11px;
+    padding: 2px 6px;
+    font-size: 10px;
     font-family: Georgia, serif;
-    border: 1.5px solid black;
+    border: 1px solid black;
+    border-radius: 8px;
     background-color: transparent;
     color: black;
-    border-radius: 12px;
     cursor: pointer;
   }
   
@@ -59,15 +49,19 @@ html, body {
   }
   
   #timer {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     margin: 0;
   }
   
   #session-label {
-    margin-top: 0.2em;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
-    padding: 0;
+    margin-top: 2px;
+  }
+  
+  .break-mode {
+    background-color: black;
+    color: white;
   }
   
