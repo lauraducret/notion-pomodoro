@@ -30,7 +30,7 @@ html, body {
   }
   
   h1 {
-    font-size: 20px;
+    font-size: 35px;
     margin: 6px 0;
   }
   
@@ -42,7 +42,7 @@ html, body {
   
   button {
     padding: 2px 6px;
-    font-size: 14px;
+    font-size: 20px;
     font-family: Georgia, serif;
     border: 1px solid black;
     border-radius: 8px;
@@ -57,14 +57,14 @@ html, body {
   }
   
   #timer {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
     margin: 4px 0 2px 0;
   }
   
   #session-label {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
-    margin: 0;
+    margin: 4px 0 2px 0;
   }
   
