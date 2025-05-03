@@ -9,6 +9,13 @@ html, body {
     display: block;
     overflow: hidden;
   }
+    
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: min-content;     /* 👈 this is the key! */
+  }
   
   .container {
     display: flex;
