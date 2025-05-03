@@ -29,7 +29,7 @@ html, body {
     margin: 0;
   }
   .scale-wrapper {
-    transform: scale(1.5);         /* Make the whole content 50% larger */
+    transform: scale(0.7);         /* Make the whole content 50% larger */
     transform-origin: top center;  /* Anchor it to the top */
   }
   
