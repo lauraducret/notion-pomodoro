@@ -1,53 +1,56 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 80%;
     font-family: Georgia, serif;
     background-color: #FAFAFA;
     color: #333;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  
+  .wrapper {
+    transform: scale(0.7);
+    transform-origin: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    overflow: hidden;
   }
   
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0.25em;
-    box-sizing: border-box;
     text-align: center;
-  }
-  .wrapper {
-    transform: scale(0.7);
-    transform-origin: top center;
-    height: fit-content;
-    width: fit-content;
+    padding: 0;
+    margin: 0;
   }
   
   h1 {
-    margin-bottom: 0.5em;
     font-size: 20px;
+    margin: 0 0 0.5em 0;
   }
   
   .button-group {
     display: flex;
-    flex-direction: row;
     gap: 10px;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
+    margin-bottom: 12px;
   }
   
   button {
-    padding: 4px 10px;               /* reduced padding */
-    font-size: 11px;                 /* slightly smaller text */
-    font-family: 'Georgia', serif;  /* keep your aesthetic */
-    cursor: pointer;
-    border: 1.5px solid black;       /* thinner border */
+    padding: 4px 10px;
+    font-size: 11px;
+    font-family: Georgia, serif;
+    border: 1.5px solid black;
     background-color: transparent;
     color: black;
-    border-radius: 12px;             /* still soft, but tighter */
-    transition: background-color 0.3s, color 0.3s;
+    border-radius: 12px;
+    cursor: pointer;
   }
   
   button:hover {
@@ -60,19 +63,11 @@ html, body {
     font-weight: bold;
     margin: 0;
   }
-
+  
   #session-label {
-    margin-top: 0.5em;
-    font-size: 16px;
+    margin-top: 0.2em;
+    font-size: 14px;
     font-weight: bold;
-    color: black;
-    padding: 0px 6px;
-    border-radius: 6px;
-    background-color: transparent;
-    transition: background-color 0.3s, color 0.3s;
+    padding: 0;
   }
   
-  .break-mode {
-    background-color: black;
-    color: white;
-  }
