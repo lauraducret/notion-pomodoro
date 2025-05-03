@@ -22,7 +22,7 @@ html, body {
   
   h1 {
     margin-bottom: 0.5em;
-    font-size: 26px;
+    font-size: 24px;
   }
   
   .button-group {
@@ -51,7 +51,7 @@ html, body {
   }
   
   #timer {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     margin: 0;
   }
