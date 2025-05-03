@@ -17,7 +17,12 @@ html, body {
     padding: 0.25em;
     box-sizing: border-box;
     text-align: center;
+  }
+  .wrapper {
     transform: scale(0.7);
+    transform-origin: top center;
+    height: fit-content;
+    width: fit-content;
   }
   
   h1 {
