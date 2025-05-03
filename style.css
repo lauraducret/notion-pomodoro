@@ -36,7 +36,7 @@ html, body {
   
   button {
     padding: 4px 10px;               /* reduced padding */
-    font-size: 17px;                 /* slightly smaller text */
+    font-size: 11px;                 /* slightly smaller text */
     font-family: 'Georgia', serif;  /* keep your aesthetic */
     cursor: pointer;
     border: 1.5px solid black;       /* thinner border */
