@@ -28,11 +28,7 @@ html, body {
     padding: 0;
     margin: 0;
   }
-  .scale-wrapper {
-    transform: scale(0.7);         /* Make the whole content 50% larger */
-    transform-origin: top center;  /* Anchor it to the top */
-  }
-  
+
   h1 {
     font-size: 25px;
     margin: 6px 0;
